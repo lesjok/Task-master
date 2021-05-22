@@ -1,0 +1,57 @@
+body{
+  background-color: #EFF6FF;
+  color: #2A4A5C;
+  padding: 0;
+  margin: 0;
+  font-family: 'Barlow', sans-serif;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+div, p, input, button, form, span, a, ul, li {
+  box-sizing: border-box;
+}
+
+.main {
+  padding: 102px 82px;
+}
+
+.container {
+  background-color: #fff;
+  display: flex;
+}
+
+.info {
+  padding: 113px 79px 106px 75px;
+}
+
+.info__header {
+  color: #7B8A92;
+  font-weight: 500;
+}
+
+.btns {
+  justify-content: space-between;
+  color: #fff;
+  padding: 15px 58px;
+  display: flex;
+}
+
+.fb {
+  background-image: url('./img/facebook.svg');
+  background-attachment: inherit;
+  background-color: #255A9B;
+  width: 245px;
+  height: 42px;
+  background-position: top left;
+  background-size: 25%;
+
+}
+
+.in {
+  background-color: #0076B6;
+  width: 245px;
+  height: 42px;
+}
