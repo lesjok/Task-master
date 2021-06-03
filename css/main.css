@@ -22,17 +22,14 @@ ul,
 li {
   box-sizing: border-box;
 }
-
 .main {
   padding: 102px 82px;
 }
-
 .container {
   background-color: #fff;
   display: flex;
   flex-direction: row;
 }
-
 .computer img {
   width: 677px;
   height: 100%;
@@ -41,20 +38,16 @@ li {
   padding: 103px 69px 96px 65px;
   width: 700px;
 }
-
 .info__header {
   color: #7b8a92;
   font-weight: 500;
 }
-
 .btns {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
 }
-
-.fb {
-  background-color: #255a9b;
+.btn {
   color: #fff;
   width: 230px;
   height: 42px;
@@ -62,34 +55,20 @@ li {
   cursor: pointer;
   position: relative;
 }
-
-.facebook {
+.fb {
+  background-color: #255a9b;
+  position: relative;
+}
+.in {
+  background-color: #0076b6;
+}
+.social-icon {
   position: absolute;
   width: 23px;
   height: 23px;
   bottom: 10px;
   left: 10px;
 }
-
-.in {
-  background-color: #0076b6;
-  width: 230px;
-  height: 42px;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  position: relative;
-}
-
-.linkedin {
-  position: absolute;
-  width: 18px;
-  height: 18px;
-  bottom: 10px;
-  left: 14px;
-  top: 10px;
-}
-
 .or {
   justify-content: center;
   display: flex;
@@ -98,7 +77,6 @@ li {
   font-weight: 500;
   margin-bottom: 45px;
 }
-
 .or:before {
   content: "";
   background-color: #eeeeee;
@@ -107,7 +85,6 @@ li {
   width: 100px;
   margin-right: 10px;
 }
-
 .or:after {
   content: "";
   background-color: #eeeeee;
@@ -116,72 +93,44 @@ li {
   width: 100px;
   margin-left: 10px;
 }
-
 .registration {
   display: flex;
   justify-content: space-between;
 }
-
 .email-input-text {
   border: none;
 }
-
-.email-div {
+.form-div {
   height: 50px;
   width: 245px;
+  position: relative;
+}
+.email-div {
   border: 1px solid #afafaf;
   border-left: 2px solid #3698fb;
-  padding: 10px 0;
-  padding: 7px;
-  position: relative;
+  padding: 16px;
 }
-
-.email {
+.placeholder {
   position: absolute;
   display: block;
-  left: 10px;
-  top: 3px;
+  left: 5px;
+  top: 2px;
 }
-
-
-.phone-div {
+.phone-input {
   height: 50px;
   width: 245px;
-  position: relative;
-  
 }
-
-.phone {
-  position: absolute;
-  display: inline-block;
-  left: 10px;
-  top: 3px;
-
-}
-
-.phone-div {
-position: relative;
-}
-
-
 .investor {
   margin-top: 60px;
 }
-
 .investor p {
   color: #7b8a92;
 }
-
-.your-investor {
-  font-size: 1.3em;
-}
-
 .form {
   display: flex;
   justify-content: space-between;
   margin-top: 51px;
 }
-
 .comment {
   width: 295px;
   height: 80px;
@@ -190,7 +139,6 @@ position: relative;
   box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
 }
-
 .wrapper {
   display: flex;
   justify-content: space-between;
@@ -200,11 +148,9 @@ position: relative;
 .agreement p {
   color: #7b8a92;
 }
-
 .full-terms {
   color: #3698FB;
 }
-
 .button {
   background-color: #3698FB;
   padding: 15px 70px;
@@ -212,31 +158,4 @@ position: relative;
   color: #fff;
   border-radius: 5px;
   font-weight: 600;
-}
-
-@media screen and (max-width: 1400px) {
- .info {
-   width: 600px;
- }
-
-}
-
-@media screen and (max-width: 1376px) {
- .info {
-   width: 500px;
- }
- .phone-div {
-   height: 50px;
-   width: 245px;
- }
-
-}
-
-@media screen and (max-width: 720px) {
- 
-
-}
-
-@media screen and (max-width: 576px) {
-
 }
