@@ -122,28 +122,47 @@ li {
   justify-content: space-between;
 }
 
-.email-input {
+.email-input-text {
+  border: none;
+}
+
+.email-div {
   height: 50px;
   width: 245px;
   border: 1px solid #afafaf;
   border-left: 2px solid #3698fb;
   padding: 10px 0;
   padding: 7px;
-}
-
-
-.phone-input {
-  height: 50px;
-  width: 245px;
-  border: 1px solid #afafaf;
   position: relative;
 }
 
-.phone {
-  display: block;
+.email {
   position: absolute;
-  margin-left: 7px;
+  display: block;
+  left: 10px;
+  top: 3px;
 }
+
+
+.phone-div {
+  height: 50px;
+  width: 245px;
+  position: relative;
+  
+}
+
+.phone {
+  position: absolute;
+  display: inline-block;
+  left: 10px;
+  top: 3px;
+
+}
+
+.phone-div {
+position: relative;
+}
+
 
 .investor {
   margin-top: 60px;
@@ -159,7 +178,7 @@ li {
 
 .form {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 51px;
 }
 
@@ -193,4 +212,31 @@ li {
   color: #fff;
   border-radius: 5px;
   font-weight: 600;
+}
+
+@media screen and (max-width: 1400px) {
+ .info {
+   width: 600px;
+ }
+
+}
+
+@media screen and (max-width: 1376px) {
+ .info {
+   width: 500px;
+ }
+ .phone-div {
+   height: 50px;
+   width: 245px;
+ }
+
+}
+
+@media screen and (max-width: 720px) {
+ 
+
+}
+
+@media screen and (max-width: 576px) {
+
 }
