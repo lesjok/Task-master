@@ -22,6 +22,10 @@ ul,
 li {
   box-sizing: border-box;
 }
+
+input:focus{
+    outline: none;
+}
 .main {
   padding: 102px 82px;
 }
@@ -145,8 +149,13 @@ li {
   margin-top: 35px;
   margin-bottom: 45px;
 }
-.agreement p {
+.agreement {
+  margin-right: 10px;
+}
+.agreement span {
   color: #7b8a92;
+  display: inline-block;
+  
 }
 .full-terms {
   color: #3698FB;
